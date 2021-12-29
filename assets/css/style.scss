@@ -1,0 +1,321 @@
+$pink: #d539bdde;
+$darkBlue: #255FE4;
+$lightGreen: #10d180;
+$orange: #f69508;
+$lightBlue: #06B5F6;
+$yellow: #f5E641;
+$skyBlue: #06b5f61f;
+$black: #000000;
+$white: #ffffff;
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.nav {
+    &__button {
+        display: flex;
+    }
+    &__icon {
+        background-image: url('../images/menu-outline.svg');
+        width: 37px;
+        height: 37px;
+        background-repeat: no-repeat;
+    }
+}
+
+.navbar {
+    height: 100px;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    &:hover {
+        color: #ff22dd3b;
+    };
+    &:focus {
+        color: $pink;
+    };
+}
+
+.logo {
+    &__large {
+        width: 200px;
+    }
+    &__small {
+        width: 170px;
+    }
+}
+
+.slide {
+    max-height: 70vh;
+    opacity: 0.8;
+    object-fit: cover;
+    background-color: #198754;
+}
+
+.active {
+    color: $pink;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.stripe__color {
+    height: 7px;
+    width: 100%;
+    &__container {
+        height: 17px;
+    }
+}
+
+.fresh__artwork {
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    color: $yellow;
+    word-wrap: break-word;
+    text-shadow: 3px 3px $orange;
+    &__container {
+        background-image: url('../images/retro.jpg');
+        padding: 25px;
+    }
+}
+
+.freshly__tokenized {
+    font-size: 50px;    
+    font-weight: 800;
+    text-align: left;
+    color: $pink;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-shadow: 3px 0 $yellow;
+    &__container {
+        padding: 20px 10px;
+    }
+    &__artworks {
+        padding: 20px;
+    }
+}
+
+.option__button {
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    padding: 0;
+    border: 0;
+    opacity: .5;
+    background: 0;
+    &__icons {
+        width: 1.4rem;
+        height: 2rem;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 100% 100%;
+        &--prev {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%29fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+        }
+        &--next {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%29fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+    }
+}
+
+.prev {
+    margin-left: 10px
+}
+
+.artwork {
+    padding: 5px;
+    &__container {
+        background-color: $skyBlue;
+        margin: 5px;
+    }
+    &__img {
+        max-height: 250px;
+        min-height: 250px;
+        width: 100%;
+        object-fit: fill;
+    }
+    &__name {
+        font-weight: 700;
+        color: $black;
+        padding: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__divider {
+        margin: 15px 0;
+        border-color: $pink;
+        border-style: solid;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+    }
+    &__counter {
+        float: right;
+        margin: -20px 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: $black;
+        background-color: $yellow;
+        border: 2px solid;
+        width: 35px;
+        height: 35px;
+        padding: 1px;
+        border-width: 3px;
+        text-align: center;
+        border-color: $pink;
+        border-radius: 20px;
+    }
+    &__artist {
+        color: $darkBlue;
+        padding: 10px;
+        text-transform: uppercase;
+        &__label {
+            font-weight: 800;
+        }
+        &__name {
+            font-size: 16px;
+        }
+    }
+    &__gallery {
+        font-size: 35px;    
+        font-weight: 800;
+        text-align: left;
+        color: $pink;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        text-shadow: 3px 0 $yellow;
+    }
+}
+
+.stats {
+    background-color: $yellow;
+    padding: 25px;
+    display: grid;
+    align-content: center;
+    &__title {
+        font-weight: 800;
+        text-align: center;
+        color: $black;
+    }
+    &__ring {
+        width: 120px;
+        height: 120px;
+        display: grid;
+        margin: 15px auto;
+        border-radius: 80px;
+        align-content: center;
+        text-align: center;
+        &__text {
+            font-weight: 800;
+            color: $darkBlue;
+            font-size: 18px;
+        }
+    }
+    &__ethereum {
+        border: 10px solid $lightBlue;
+    }
+    &__sold {
+        border: 10px solid $pink;
+    }
+    &__sales {
+        border: 10px solid $lightGreen;
+    }
+    &__artists {
+        border: 10px solid $orange;
+    }
+}
+
+.center {
+    margin: auto 0;
+}
+
+.about {
+    &__content {
+        padding: 10px;
+        font-size: 18px;
+        &--white {
+            color: $white;
+            padding: 10px;
+        }
+        &--space {
+            padding: 30px 0;
+            font-size: 1.2rem;
+            margin: 0 10px;
+        }
+    }
+
+    &__missions {
+        background-color: $lightBlue;
+        margin: 40px 0;
+        padding: 30px 0;
+    }
+}
+
+.footer {
+    background-color: $yellow;
+    padding: 25px;
+    display: grid;
+    align-content: center;
+    &__nav {
+        text-decoration: none;
+        margin: 0 15px;
+        color: $black;
+        font-weight: 700;
+        font-size: 15px;
+        &:hover {
+            cursor: pointer;
+        };
+        &:focus {
+            color: $pink;
+        };
+    }
+
+    &__copyright {
+        font-weight: 800;
+        text-align: center;
+        font-size: 14px;
+        color: $darkBlue;
+        margin: 25px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fresh__artwork {
+        font-size: 40px;
+    }
+
+    .artwork {
+        &__img {
+            min-height: 150px;
+        }
+        &__name {
+            font-size: 15px;
+        }
+        &__counter {
+            margin: -17px 17px;
+            font-size: 16px;
+            border-width: 2px;
+            width: 30px;
+            height: 30px;
+            padding: 1px;
+        }
+    }
+
+    .freshly__tokenized {
+        font-size: 30px;
+    }
+
+    .footer {
+        &__copyright {
+            font-size: 14px;
+        }
+    }
+}

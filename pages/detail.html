@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicedoodle</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700,800&display=swap' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/logo.png" class="img-respensive" alt="logo" />
+            </a>
+            <div class="navbar-toggler nav__button" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="nav__icon"></span>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nicedoodle</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">APPLY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">GALLERY</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="stripe__color__container">
+        <img src="./assets/images/colorstripe.png" class="stripe__color" />
+    </div>
+
+    <!-- Nicedoodle Slide Starts here -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/images/bg2.jpg" class="d-block w-100" alt="...">
+                <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="300" height="300"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                        dy=".3em">First slide</text>
+                </svg> -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Proof of Art 1</h5>
+                    <p>Nicedoodle is a digital art marketplace built on Hive, a fast and free blockchain that
+                        makes
+                        creating and collecting rare digital art simple and accessible.</p>
+                </div>
+            </div>
+            <!-- mobile 300px -->
+            <div class="carousel-item">
+                <img src="../assets/images/bg1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Proof of Art 2</h5>
+                    <p>Nicedoodle is a digital art marketplace built on Hive, a fast and free blockchain that
+                        makes
+                        creating and collecting rare digital art simple and accessible.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Nicedoodle Slide Ends here -->
+    <!-- Fresh Artworks -->
+    <div class="fresh__artwork__container">
+        <h1 class="display-1 fresh__artwork">Fresh Artworks</h1>
+    </div>
+
+    <!-- Freshly tokenized Starts -->
+    <div class="container">
+        <div class="row ">
+            <div class="col-11">
+                <div class="freshly__tokenized__container">
+                    <h1 class="freshly__tokenized">FRESHLY</h1>
+                    <h1 class="freshly__tokenized">TOKENIZED ART</h1>
+                </div>
+            </div>
+            <div class="col-auto align-self-end justify-content-start">
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button class="option__button prev" type="button">
+                        <span class="option__button__icons option__button__icons--prev" aria-hidden="true"></span>
+                    </button>
+                    <button class="option__button next" type="button">
+                        <span class="option__button__icons option__button__icons--next" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="freshly__tokenized__artworks">
+                <div class="owl-carousel">
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">1</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Freshly Tokenized Ends -->
+    <!-- Stats Starts -->
+    <div class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="stats__ring stats__ethereum">
+                        <span class="stats__ring__text">9, 999</span>
+                    </div>
+                    <div class="stats__title">
+                        Total Ethereum raised
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stats__ring stats__sold">
+                        <span class="stats__ring__text">10 999</span>
+                    </div>
+                    <div class="stats__title">
+                        Total doodles sold
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stats__ring stats__sales">
+                        <span class="stats__ring__text">10</span>
+                    </div>
+                    <div class="stats__title">
+                        Recent doodle sales
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stats__ring stats__artists">
+                        <span class="stats__ring__text">569</span>
+                    </div>
+                    <div class="stats__title">
+                        Total artists (doodlist)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Ends -->
+    <!-- Recent Activity Starts -->
+    <div class="container">
+        <div class="row ">
+            <div class="col-11">
+                <div class="freshly__tokenized__container">
+                    <h1 class="freshly__tokenized">Recent activity</h1>
+                    <!-- <h1 class="freshly__tokenized">TOKENIZED ART</h1> -->
+                </div>
+            </div>
+            <div class="col-auto align-self-end justify-content-start">
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button class="option__button prev" type="button">
+                        <span class="option__button__icons option__button__icons--prev" aria-hidden="true"></span>
+                    </button>
+                    <button class="option__button next" type="button">
+                        <span class="option__button__icons option__button__icons--next" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="freshly__tokenized__artworks">
+                <div class="owl-carousel">
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">1</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork1.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">3</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="artwork artwork__container">
+                            <img src="assets/images/artwork2.png" class="artwork__img" alt="artwork1">
+                            <h3 class="artwork__name">ARTWORK NAME</h3>
+                            <div class="artwork__divider">
+                                <span class="artwork__counter">2</span>
+                            </div>
+                            <div class="artwork__artist">
+                                <div class="artwork__artist__label">Artist Name</div>
+                                <div class="artwork__artist__name">Mike Geez</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Recent Activity Ends -->
+    </div>
+
+    <div class="stripe__color__container">
+        <img src="./assets/images/colorstripe.png" class="stripe__color" />
+    </div>
+
+    <!---- Footer starts ----->
+    <div class="footer">
+        <div class="container-sm">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <a class="footer__nav" href="../index.html">HOME</a>
+                </div>
+                <div class="col-md-auto">
+                    <a class="footer__nav" href="">APPLY</a>
+                </div>
+                <div class="col-md-auto">
+                    <a class="footer__nav" href="./about.html">ABOUT</a>
+                </div>
+                <div class="col-md-auto">
+                    <a class="footer__nav active" href="#">GALLERY</a>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <p class="footer__copyright">Nicedoodle Copyright <span>&copy;</span> 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- Footer Ends ------>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</html>
